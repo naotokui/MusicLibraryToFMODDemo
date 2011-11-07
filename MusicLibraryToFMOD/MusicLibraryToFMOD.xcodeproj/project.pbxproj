@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3589CAA414681BC00013DFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAA314681BC00013DFDD /* UIKit.framework */; };
+		3589CAA614681BC00013DFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAA514681BC00013DFDD /* Foundation.framework */; };
+		3589CAA814681BC00013DFDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAA714681BC00013DFDD /* CoreGraphics.framework */; };
+		3589CAAE14681BC10013DFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3589CAAC14681BC10013DFDD /* InfoPlist.strings */; };
+		3589CAB014681BC10013DFDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3589CAAF14681BC10013DFDD /* main.m */; };
+		3589CAB414681BC10013DFDD /* MLFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3589CAB314681BC10013DFDD /* MLFAppDelegate.m */; };
+		3589CAB714681BC10013DFDD /* MLFViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3589CAB614681BC10013DFDD /* MLFViewController.mm */; };
+		3589CABA14681BC10013DFDD /* MLFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3589CAB814681BC10013DFDD /* MLFViewController.xib */; };
+		3589CAC114681C180013DFDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAC014681C180013DFDD /* AVFoundation.framework */; };
+		3589CAC314681C310013DFDD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAC214681C310013DFDD /* CoreMedia.framework */; };
+		3589CAC514681C3E0013DFDD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAC414681C3E0013DFDD /* MediaPlayer.framework */; };
+		3589CAC814681D9C0013DFDD /* MLFAudioManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3589CAC714681D9C0013DFDD /* MLFAudioManager.mm */; };
+		3589CACA146824BA0013DFDD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3589CAC9146824BA0013DFDD /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3589CA9F14681BC00013DFDD /* MusicLibraryToFMOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicLibraryToFMOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3589CAA314681BC00013DFDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3589CAA514681BC00013DFDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3589CAA714681BC00013DFDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3589CAAB14681BC10013DFDD /* MusicLibraryToFMOD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicLibraryToFMOD-Info.plist"; sourceTree = "<group>"; };
+		3589CAAD14681BC10013DFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3589CAAF14681BC10013DFDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3589CAB114681BC10013DFDD /* MusicLibraryToFMOD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicLibraryToFMOD-Prefix.pch"; sourceTree = "<group>"; };
+		3589CAB214681BC10013DFDD /* MLFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFAppDelegate.h; sourceTree = "<group>"; };
+		3589CAB314681BC10013DFDD /* MLFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLFAppDelegate.m; sourceTree = "<group>"; };
+		3589CAB514681BC10013DFDD /* MLFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLFViewController.h; sourceTree = "<group>"; };
+		3589CAB614681BC10013DFDD /* MLFViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MLFViewController.mm; sourceTree = "<group>"; };
+		3589CAB914681BC10013DFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MLFViewController.xib; sourceTree = "<group>"; };
+		3589CAC014681C180013DFDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3589CAC214681C310013DFDD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3589CAC414681C3E0013DFDD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3589CAC614681D9C0013DFDD /* MLFAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFAudioManager.h; sourceTree = "<group>"; };
+		3589CAC714681D9C0013DFDD /* MLFAudioManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MLFAudioManager.mm; sourceTree = "<group>"; };
+		3589CAC9146824BA0013DFDD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3589CA9C14681BC00013DFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3589CAA414681BC00013DFDD /* UIKit.framework in Frameworks */,
+				3589CAA614681BC00013DFDD /* Foundation.framework in Frameworks */,
+				3589CAA814681BC00013DFDD /* CoreGraphics.framework in Frameworks */,
+				3589CAC114681C180013DFDD /* AVFoundation.framework in Frameworks */,
+				3589CAC314681C310013DFDD /* CoreMedia.framework in Frameworks */,
+				3589CAC514681C3E0013DFDD /* MediaPlayer.framework in Frameworks */,
+				3589CACA146824BA0013DFDD /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3589CA9414681BC00013DFDD = {
+			isa = PBXGroup;
+			children = (
+				3589CAA914681BC10013DFDD /* MusicLibraryToFMOD */,
+				3589CAA214681BC00013DFDD /* Frameworks */,
+				3589CAA014681BC00013DFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3589CAA014681BC00013DFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3589CA9F14681BC00013DFDD /* MusicLibraryToFMOD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3589CAA214681BC00013DFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3589CAC9146824BA0013DFDD /* AudioToolbox.framework */,
+				3589CAC414681C3E0013DFDD /* MediaPlayer.framework */,
+				3589CAC214681C310013DFDD /* CoreMedia.framework */,
+				3589CAC014681C180013DFDD /* AVFoundation.framework */,
+				3589CAA314681BC00013DFDD /* UIKit.framework */,
+				3589CAA514681BC00013DFDD /* Foundation.framework */,
+				3589CAA714681BC00013DFDD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3589CAA914681BC10013DFDD /* MusicLibraryToFMOD */ = {
+			isa = PBXGroup;
+			children = (
+				3589CACD14682D5D0013DFDD /* Core */,
+				3589CAB214681BC10013DFDD /* MLFAppDelegate.h */,
+				3589CAB314681BC10013DFDD /* MLFAppDelegate.m */,
+				3589CAB514681BC10013DFDD /* MLFViewController.h */,
+				3589CAB614681BC10013DFDD /* MLFViewController.mm */,
+				3589CAB814681BC10013DFDD /* MLFViewController.xib */,
+				3589CAAA14681BC10013DFDD /* Supporting Files */,
+			);
+			path = MusicLibraryToFMOD;
+			sourceTree = "<group>";
+		};
+		3589CAAA14681BC10013DFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3589CAAB14681BC10013DFDD /* MusicLibraryToFMOD-Info.plist */,
+				3589CAAC14681BC10013DFDD /* InfoPlist.strings */,
+				3589CAAF14681BC10013DFDD /* main.m */,
+				3589CAB114681BC10013DFDD /* MusicLibraryToFMOD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3589CACD14682D5D0013DFDD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3589CAC614681D9C0013DFDD /* MLFAudioManager.h */,
+				3589CAC714681D9C0013DFDD /* MLFAudioManager.mm */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3589CA9E14681BC00013DFDD /* MusicLibraryToFMOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3589CABD14681BC10013DFDD /* Build configuration list for PBXNativeTarget "MusicLibraryToFMOD" */;
+			buildPhases = (
+				3589CA9B14681BC00013DFDD /* Sources */,
+				3589CA9C14681BC00013DFDD /* Frameworks */,
+				3589CA9D14681BC00013DFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicLibraryToFMOD;
+			productName = MusicLibraryToFMOD;
+			productReference = 3589CA9F14681BC00013DFDD /* MusicLibraryToFMOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3589CA9614681BC00013DFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Qosmo, Inc.";
+			};
+			buildConfigurationList = 3589CA9914681BC00013DFDD /* Build configuration list for PBXProject "MusicLibraryToFMOD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3589CA9414681BC00013DFDD;
+			productRefGroup = 3589CAA014681BC00013DFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3589CA9E14681BC00013DFDD /* MusicLibraryToFMOD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3589CA9D14681BC00013DFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3589CAAE14681BC10013DFDD /* InfoPlist.strings in Resources */,
+				3589CABA14681BC10013DFDD /* MLFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3589CA9B14681BC00013DFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3589CAB014681BC10013DFDD /* main.m in Sources */,
+				3589CAB414681BC10013DFDD /* MLFAppDelegate.m in Sources */,
+				3589CAB714681BC10013DFDD /* MLFViewController.mm in Sources */,
+				3589CAC814681D9C0013DFDD /* MLFAudioManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3589CAAC14681BC10013DFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3589CAAD14681BC10013DFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3589CAB814681BC10013DFDD /* MLFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3589CAB914681BC10013DFDD /* en */,
+			);
+			name = MLFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3589CABB14681BC10013DFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3589CABC14681BC10013DFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3589CABE14681BC10013DFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicLibraryToFMOD/MusicLibraryToFMOD-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"/Developer/FMOD Programmers API iPhone/api/inc\"",
+				);
+				INFOPLIST_FILE = "MusicLibraryToFMOD/MusicLibraryToFMOD-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Developer/FMOD Programmers API iPhone/api/lib\"",
+				);
+				OTHER_LDFLAGS = "-lfmodexL_iphoneos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3589CABF14681BC10013DFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MusicLibraryToFMOD/MusicLibraryToFMOD-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"/Developer/FMOD Programmers API iPhone/api/inc\"",
+				);
+				INFOPLIST_FILE = "MusicLibraryToFMOD/MusicLibraryToFMOD-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Developer/FMOD Programmers API iPhone/api/lib\"",
+				);
+				OTHER_LDFLAGS = "-lfmodexL_iphoneos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3589CA9914681BC00013DFDD /* Build configuration list for PBXProject "MusicLibraryToFMOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3589CABB14681BC10013DFDD /* Debug */,
+				3589CABC14681BC10013DFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3589CABD14681BC10013DFDD /* Build configuration list for PBXNativeTarget "MusicLibraryToFMOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3589CABE14681BC10013DFDD /* Debug */,
+				3589CABF14681BC10013DFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3589CA9614681BC00013DFDD /* Project object */;
+}
